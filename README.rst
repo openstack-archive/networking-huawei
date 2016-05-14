@@ -24,4 +24,5 @@ General
 Features
 --------
 
-* TODO
+* Network, Subnet and Port creation, update and deletion.
+* Security group and rules handling.
