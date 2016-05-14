@@ -23,13 +23,15 @@
 
 Welcome to networking-huawei's documentation!
 ========================================================
+Networking-huawei is Neutron’s sub-project to provide connectivity between Neutron/Neutron’s sub-project’s and Huawei Agile Controller(AC) 2.0.
+
+.. include:: ../../README.rst
 
 Contents:
-
+==================
 .. toctree::
    :maxdepth: 2
 
-   readme
    installation
    usage
    contributing

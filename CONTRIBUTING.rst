@@ -1,5 +1,5 @@
 If you would like to contribute to the development of networking-huawei,
-you must follow the steps documented at::
+you must follow the steps documented at:
 
    http://docs.openstack.org/infra/manual/developers.html
 
