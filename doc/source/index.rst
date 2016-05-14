@@ -23,13 +23,16 @@
 
 Welcome to networking-huawei's documentation!
 ========================================================
+Networking-huawei is Neutron’s ML2 plugin to provide connectivity between
+Neutron and Huawei SDN Controllers.
+
+.. include:: ../../README.rst
 
 Contents:
-
+==================
 .. toctree::
    :maxdepth: 2
 
-   readme
    installation
    usage
    contributing
