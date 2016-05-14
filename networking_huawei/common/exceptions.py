@@ -1,4 +1,4 @@
-# Copyright (c) 2016 Huawei Technologies India Pvt Ltd.
+# Copyright (c) 2016 OpenStack Foundation.
 # All Rights Reserved.
 #
 #    Licensed under the Apache License, Version 2.0 (the "License"); you may
@@ -13,18 +13,13 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-""" Tests for `networking_huawei` module"""
+"""Exceptions used by ML2."""
 
-from oslotest import base
+from neutron_lib import exceptions
+
+from networking_huawei._i18n import _
 
 
-class TestNetworking_huawei(base.BaseTestCase):
-    """TestNetworking_huawei base class"""
-
-    def setUp(self):
-        """setUp function"""
-        super(TestNetworking_huawei, self).setUp()
-
-    def test_dummy(self):
-        """Added dummy test just for test"""
-        pass
+class MechanismDriverError(exceptions.NeutronException):
+    """Mechanism driver call failed."""
+    message = _("%(method)s failed.")
