@@ -1,5 +1,5 @@
 ..
-      Copyright 2015-2016 Huawei India Pvt Ltd. All rights reserved.
+      Copyright 2016 Huawei Technologies Co. Ltd. All rights reserved.
 
       Licensed under the Apache License, Version 2.0 (the "License"); you may
       not use this file except in compliance with the License. You may obtain
@@ -22,14 +22,17 @@
       (Avoid deeper levels because they do not render well.)
 
 Welcome to networking-huawei's documentation!
-========================================================
+=============================================
+Networking-huawei is Neutron’s ML2 plugin to provide connectivity between
+Neutron and Huawei SDN Controllers.
+
+.. include:: ../../README.rst
 
 Contents:
-
+=========
 .. toctree::
    :maxdepth: 2
 
-   readme
    installation
    usage
    contributing
