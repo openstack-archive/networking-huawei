@@ -30,4 +30,5 @@ Features
 
 * Network, Subnet and Port creation, update and deletion.
 * Security group and rules handling.
+* L3 router support.
 

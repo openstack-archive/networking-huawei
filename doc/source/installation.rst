@@ -70,4 +70,11 @@ from the Neutron Server.
             neutron_ip = 10.10.10.10
 
 
-     3. Restart the neutron server service.
+     3. Update /etc/neutron/neutron.conf for L3 router plugin.
+
+      ::
+
+            [DEFAULT]
+            service_plugins = huawei_ac_router
+
+     4. Restart the neutron server service.
