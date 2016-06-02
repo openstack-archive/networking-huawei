@@ -28,4 +28,6 @@ General
 Features
 --------
 
-* TODO
+* Support CRUD operations for ML2 resources like port, subnet and network.
+* Support Security group functionality.
+
