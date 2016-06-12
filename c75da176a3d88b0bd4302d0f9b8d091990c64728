@@ -1,0 +1,9 @@
+Code-Review+2: vikram.choudhary <vikram.choudhary@huawei.com>
+Code-Review+2: dongfeng <albert.dongfeng@huawei.com>
+Workflow+1: dongfeng <albert.dongfeng@huawei.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Sun, 12 Jun 2016 02:04:42 +0000
+Reviewed-on: https://review.openstack.org/326702
+Project: openstack/networking-huawei
+Branch: refs/heads/master
