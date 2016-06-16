@@ -15,7 +15,10 @@ application services.
 
 Support for below Huawei devices are implemented:
 
-* Agile Controller(AC)
+.. toctree::
+   :maxdepth: 1
+
+   drivers/ac/readme
 
 General
 -------
@@ -24,11 +27,3 @@ General
 * Documentation: http://docs.openstack.org/developer/networking-huawei
 * Source: http://git.openstack.org/cgit/openstack/networking-huawei
 * Bugs: http://bugs.launchpad.net/networking-huawei
-
-Features
---------
-
-* Support CRUD operations for ML2 resources like port, subnet and network.
-* Support Security group functionality.
-* Support router functionality.
-
