@@ -1217,7 +1217,7 @@ class HuaweiACMechanismDriverTestCase(base.BaseTestCase,
 
     def test_create_network_postcommit_err(self):
         context = mock.Mock(current=test_network_object_sent)
-        with mock.patch.object(ac_service.RESTService(),
+        with mock.patch.object(ac_service.RESTService,
                                '__doRequestSerive__',
                                return_value={'errorCode': None,
                                              'reason': None,

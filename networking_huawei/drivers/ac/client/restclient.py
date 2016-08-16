@@ -150,7 +150,7 @@ class RestClient(object):
                     break
 
         if ("Timeout Exceptions" == ret) or ("Exceptions" == ret):
-            LOG.error(_LE('Request to AC failed, error code: %s') % ret)
+            LOG.error(_LE('Request to AC failed, error code: %s'), ret)
 
         return ret
 
