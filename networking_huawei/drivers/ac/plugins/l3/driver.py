@@ -25,7 +25,6 @@ from neutron.common import rpc as n_rpc
 from neutron.common import topics
 from neutron.db import l3_db
 from neutron.db import l3_dvrscheduler_db
-from neutron.plugins.common import constants
 from neutron.services.l3_router import l3_router_plugin
 from neutron_lib import constants as q_const
 
@@ -77,7 +76,7 @@ class HuaweiACL3RouterPlugin(l3_router_plugin.L3RouterPlugin):
 
     @log_helpers.log_method_call
     def get_plugin_type(self):
-        return constants.L3_ROUTER_NAT
+        return q_const.L3
 
     @log_helpers.log_method_call
     def get_plugin_description(self):

@@ -26,9 +26,9 @@ from neutron.db.l3_db import L3_NAT_db_mixin
 from neutron.db.l3_dvr_db import L3_NAT_with_dvr_db_mixin
 from neutron.db.l3_hamode_db import L3_HA_NAT_db_mixin
 from neutron.extensions import l3
-from neutron.plugins.common import constants
 from neutron.tests.unit.api.v2 import test_base
 from neutron.tests.unit.extensions import base as test_neutron_extensions
+from neutron_lib import constants
 
 from networking_huawei.common import constants as ac_const
 from networking_huawei.common import exceptions as ml2_exc
@@ -529,7 +529,7 @@ class HuaweiACL3RouterPluginTest(test_neutron_extensions.ExtensionTestCase):
     def test_get_plugin_type(self):
         acl3router = HuaweiACL3RouterPlugin()
         plugin_type = acl3router.get_plugin_type()
-        self.assertEqual(plugin_type, constants.L3_ROUTER_NAT)
+        self.assertEqual(plugin_type, constants.L3)
         plugin_desc = acl3router.get_plugin_description()
         self.assertEqual(plugin_desc, ac_const.NW_HW_L3_DESCRIPTION)
 
