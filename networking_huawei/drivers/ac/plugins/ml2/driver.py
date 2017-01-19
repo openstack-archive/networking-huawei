@@ -24,9 +24,9 @@ from neutron.callbacks import resources
 from neutron import context
 from neutron.db import common_db_mixin
 from neutron.db import securitygroups_db as sg_db
-from neutron.extensions import portbindings
 from neutron.plugins.common import constants as n_const
 from neutron.plugins.ml2 import driver_api as api
+from neutron_lib.api.definitions import portbindings
 from neutron_lib import constants as q_const
 
 from networking_huawei._i18n import _LE
