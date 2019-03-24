@@ -46,7 +46,7 @@ from the Neutron Server.
 
 
      1. Install the plugin first.
-         *"pip install git+git://git.openstack.org/openstack/
+         *"pip install git+https://git.openstack.org/openstack/
          networking-huawei"*.
 
      2. Update /etc/neutron/plugins/ml2/ml2_conf.ini for L2 plugin.
